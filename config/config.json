@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "world-clocks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/worldClocks/WorldClocksWebPart.js",
+          "manifest": "./src/webparts/worldClocks/WorldClocksWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WorldClocksWebPartStrings": "lib/webparts/worldClocks/loc/{locale}.js"
+  }
+}

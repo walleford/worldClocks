@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "world-clocks",
+    "id": "352c91cc-d85b-4b12-90ed-e757b6f4f6ce",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "DPAA SW Engineering, Jordan Wallingsford",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "world-clocks"
+      },
+      "longDescription": {
+        "default": "world-clocks"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "world-clocks Feature",
+        "description": "The feature that activates elements of the world-clocks solution.",
+        "id": "3b48f30d-a603-4103-8114-19b7cfa246b1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/world-clocks.sppkg"
+  }
+}

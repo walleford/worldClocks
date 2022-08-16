@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "world-clocks",
+    "libraryId": "352c91cc-d85b-4b12-90ed-e757b6f4f6ce",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "world-clocks",
+    "solutionShortDescription": "world-clocks description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
